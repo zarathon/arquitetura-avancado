@@ -15,9 +15,6 @@ public class Main {
 		p.add(g3);
 		
 		p.draw();
-		
-		
-		
 
 	}
 
