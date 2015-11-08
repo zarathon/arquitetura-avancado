@@ -12,7 +12,9 @@ public class Picture implements Graphic{
 	
 	@Override
 	public void draw() {
-		System.out.println("I'm picture");
+		for (Graphic graphic : graphics) {
+			graphic.draw();
+		}
 	}
 	
 	public void add(Graphic g){
