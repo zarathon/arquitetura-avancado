@@ -1,7 +1,5 @@
+package br.com.cesar.singleton;
 import java.util.Iterator;
-
-import br.com.cesar.singleton.Aluno;
-import br.com.cesar.singleton.Escola;
 
 public class Main {
 
