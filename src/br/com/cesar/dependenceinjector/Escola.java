@@ -7,8 +7,9 @@ public class Escola {
 	private ArrayList<Aluno> alunos;
 	ILogger log;
 	
-	private Escola(){
+	public Escola(ILogger log){
 		this.alunos = new ArrayList<>();
+		this.log = log;
 	}
 
 	public ArrayList<Aluno> getAlunos() {

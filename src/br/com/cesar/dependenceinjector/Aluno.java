@@ -9,6 +9,17 @@ public class Aluno {
 	public Aluno() {
 		// TODO Auto-generated constructor stub
 	}
+	
+	
+
+	public Aluno(int matricula, String nome, String telefone) {
+		super();
+		this.matricula = matricula;
+		this.nome = nome;
+		this.telefone = telefone;
+	}
+
+
 
 	public int getMatricula() {
 		return matricula;
